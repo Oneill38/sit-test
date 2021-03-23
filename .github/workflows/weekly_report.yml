@@ -18,7 +18,7 @@ jobs:
         uses: actions/github-script@0.8.0
         with:
           script: |
-             const cards = await github.projects.listCards({ column_id: 13318641 })
+             const cards = await github.paginate(github.projects.listCards({ column_id: 13318641 }))
              for(const card of cards){
                console.log(card.url)
              }
