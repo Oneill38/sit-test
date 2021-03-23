@@ -18,5 +18,7 @@ jobs:
         uses: actions/github-script@0.8.0
         with:
           script: |
-             const cards = await github.projects.listCards({ column_id: 13318641 })
-             console.log(cards)
+             const result = await github.projects.listCards({ column_id: 13318641 })
+             for(const card in result.data){
+               console.log(card.url)
+             }
