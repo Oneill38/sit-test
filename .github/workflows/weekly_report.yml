@@ -20,6 +20,7 @@ jobs:
           script: |
              const result = await github.projects.listCards({ column_id: 13318641 })
              console.log(result.data)
+             console.log(Array(result.data).isArray)
              for(const res in result.data){
                console.log(res)
              }
