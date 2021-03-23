@@ -26,5 +26,5 @@ jobs:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
              octokit.projects.listCards({
-              13318641,
+              13318641
              });
