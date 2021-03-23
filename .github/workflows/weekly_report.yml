@@ -20,3 +20,10 @@ jobs:
           script: |
              const cards = await github.projects.listCards({ column_id: 13318641 })
              console.log(cards)
+
+              github.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: Weekly Report,
+                body: cards
+              });
