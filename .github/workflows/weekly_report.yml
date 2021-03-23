@@ -1,13 +1,7 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Weekly Report
 
-# Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
-  pull_request:
     branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
@@ -23,7 +17,6 @@ jobs:
       - name: Get cards from done column
         uses: actions/github-script@0.8.0
         with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
              const cards = await github.projects.listCards({ 13318641 })
              console.log(cards)
