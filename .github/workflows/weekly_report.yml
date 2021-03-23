@@ -19,6 +19,4 @@ jobs:
         with:
           script: |
              const result = await github.projects.listCards({ column_id: 13318641 })
-             for(const card in result.data){
-               console.log(card)
-             }
+             console.log(result.data)
