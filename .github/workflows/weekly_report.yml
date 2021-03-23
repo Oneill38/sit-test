@@ -25,6 +25,5 @@ jobs:
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
-             github.projects.listCards({
-              13318641
-             })
+             const cards = await github.projects.listCards({ 13318641 })
+             console.log(cards)
