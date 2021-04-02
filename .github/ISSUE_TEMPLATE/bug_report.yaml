@@ -1,6 +1,5 @@
 name: Using this issue to test pick me
 description: "If you're sure it's reproducible and not just your machine: submit an issue so we can investigate hi."
-hi: no
 labels: bug
 issue_body: false
 body:
