@@ -10,5 +10,5 @@ body:
     options:
     - thing1
     - thing2
-    validations:
-      required: true
+  validations:
+    required: true
