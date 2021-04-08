@@ -1,0 +1,16 @@
+---	
+name: testing file template
+description: Form for requesting stuff and things
+---
+issue_body: false
+body:
+- type: dropdown
+  id: name
+  attributes:
+    label: Early Access Name
+    description: Early Access Name?
+    options:
+    - thing1
+    - thing2
+    validations:
+      required: true
