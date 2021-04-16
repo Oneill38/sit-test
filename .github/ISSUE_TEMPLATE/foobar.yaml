@@ -81,7 +81,7 @@ body:
 
 - type: dropdown
   attributes: 
-    label: "[]"
+    label: "[foo]"
     description: |
       If this is *also* a documentation request, etc, please select that below.
     multiple: true
