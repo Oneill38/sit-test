@@ -1,12 +1,12 @@
 name: Stuff and things
-about: things
+description: things
 body:
 - type: markdown
   attributes:
     value: "tell me something"
 - type: textarea
   attributes:
-    label: "Bugs"
+    label: " "
     render: ruby
 - type: dropdown
   attributes:
