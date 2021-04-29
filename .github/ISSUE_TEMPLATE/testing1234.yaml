@@ -1,7 +1,5 @@
----
 name: testing file template
 description: Form for requesting stuff and things
----
 issue_body: false
 body:
 - type: dropdown
