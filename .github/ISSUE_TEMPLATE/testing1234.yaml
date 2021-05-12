@@ -1,14 +1,35 @@
-name: testing file template
-description: Form for requesting stuff and things
-issue_body: false
+name: Hackathon Submission
+description: Fill this out to submit your project :tada:
 body:
-- type: dropdown
-  id: name
+- type: input
   attributes:
-    label: Early Access Name
-    description: Early Access Name?
-    options:
-    - thing1
-    - thing2
+    label: Project Name
   validations:
     required: true
+- type: textarea
+  attributes:
+    label: Summary of the Project
+    description: Feel free to attach screenshots, gifs, etc
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Who worked on what?
+    description: We love when everyone is included :tada:
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Can this be shipped as-is
+    options:
+      - "yes"
+      - "no"
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: If this isn't ready to ship, what would need to be done to get it there?
+- type: input
+  attributes:
+    label: Are there any other teams that should be consulted prior to shipping this?
+    description: As a reminder, this is theoretical and not all projects will ship. This is to help us gauge the level of effort needed to get things shipped.
