@@ -1,5 +1,6 @@
 name: Hackathon Submission
 description: Fill this out to submit your project
+labels: "Hackathon Submission"
 body:
 - type: input
   attributes:
@@ -20,7 +21,7 @@ body:
     required: true
 - type: dropdown
   attributes:
-    label: Can this be shipped as-is
+    label: Is this currently in a shipable state?
     options:
       - "yes"
       - "no"
