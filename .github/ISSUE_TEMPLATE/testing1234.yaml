@@ -1,5 +1,5 @@
 name: Hackathon Submission
-description: Fill this out to submit your project :tada:
+description: Fill this out to submit your project
 body:
 - type: input
   attributes:
@@ -15,7 +15,7 @@ body:
 - type: textarea
   attributes:
     label: Who worked on what?
-    description: We love when everyone is included :tada:
+    description: We love when everyone is included
   validations:
     required: true
 - type: dropdown
