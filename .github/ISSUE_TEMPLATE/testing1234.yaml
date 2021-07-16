@@ -34,3 +34,12 @@ body:
   attributes:
     label: Are there any other teams that should be consulted prior to shipping this?
     description: As a reminder, this is theoretical and not all projects will ship. This is to help us gauge the level of effort needed to get things shipped.
+- type: checkbox
+  id: cat-preferences
+  attributes:
+    label: What kinds of cats do you like?
+    description: You may select more than one.
+    options:
+      - label: Orange cat (required. Everyone likes orange cats.)
+        required: true
+      - label: **Black cat**
