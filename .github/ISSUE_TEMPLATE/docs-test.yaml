@@ -23,8 +23,7 @@ body:
 - type: textarea
   attributes:
     - label: ### What is the current behavior?
-      placeholder: |
-      Include links to articles where you're seeing a problem, screenshots, what browser you're using, etc.
+      placeholder: Include links to articles where you're seeing a problem, screenshots, what browser you're using, etc.
   validations:
     required: true
 - type: textarea
