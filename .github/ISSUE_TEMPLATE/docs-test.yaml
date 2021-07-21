@@ -30,8 +30,7 @@ body:
 - type: textarea
   attributes:
     - label: ### What changes are you suggesting?
-      placeholder: |
-      Give as much detail as you can to help us understand the change you want to see. Why should the docs be changed? What use cases does it support? What is the expected outcome?
+      placeholder: Give as much detail as you can to help us understand the change you want to see. Why should the docs be changed? What use cases does it support? What is the expected outcome?
   validations:
   required: true
 
